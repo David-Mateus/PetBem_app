@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mi_resumi"
+        android:title="Resumo"
+        android:icon="@drawable/baseline_add_home_24"
+        />
+    <item
+        android:id="@+id/mi_cate"
+        android:title="Categorias"
+        android:icon="@drawable/baseline_ballot_24"
+        />
+</menu>

@@ -1,0 +1,45 @@
+<!-- activity_add_pet.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/petNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:hint="Nome do Pet" />
+
+    <EditText
+        android:id="@+id/petAgeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:hint="Idade do Pet"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/petBreedInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:hint="Raça do Pet" />
+
+    <Button
+        android:id="@+id/addPetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:backgroundTint="@color/btn_background"
+        android:text="Adicionar Pet" />
+</LinearLayout>
