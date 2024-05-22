@@ -11,6 +11,9 @@
         android:theme="@style/Theme.PetBem"
         tools:targetApi="31">
         <activity
+            android:name=".HygieneActivity"
+            android:exported="false" />
+        <activity
             android:name=".CategoriesActivity"
             android:exported="false" />
         <activity

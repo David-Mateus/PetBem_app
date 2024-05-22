@@ -1,5 +1,6 @@
 package com.example.petbem
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
@@ -80,7 +81,8 @@ class CategoriesActivity : AppCompatActivity(), OnItemClickListener {
             }
 
             3 -> {
-                // tela-3
+                val intent = Intent(this, HygieneActivity::class.java)
+                startActivity(intent)
             }
 
             4 -> {

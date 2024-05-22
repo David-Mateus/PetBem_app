@@ -5,5 +5,6 @@
     <color name="btn_background">#E91E63</color>
     <color name="bacground_edit_text">#F4F4F4</color>
     <color name="background_list_view">#F0F0F0</color>
+    <color name="background_higiene_list_view">#5C33AE</color>
 
 </resources>
